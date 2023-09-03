@@ -4,7 +4,7 @@ const Button = ({ label, iconUrl}) => {
   return (
     <button className='flex justify-center items-center
     gap-2 px-7 py-4 border font-montserrat text-lg
-    leading-none bg-black rounded-full text-white'>
+    leading-none bg-red-500 rounded-full text-white'>
         {label}
         <img src={iconUrl} 
         alt="arrow right icon" 
